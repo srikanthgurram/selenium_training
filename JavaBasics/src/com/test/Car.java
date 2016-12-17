@@ -42,26 +42,27 @@ public class Car {
 
 
     Car(){
-//        model = "AUDI X1";
-//        make = "AUDI Motors";
+        model = "AUDI X1";
+        make = "AUDI Motors";
         color = "Black";
         weight = "6000";
     }
 
-    Car(String carModel, String carColor, String carMake, String carWeight ){
-        model = carModel;
-        color = carColor;
-        make = carMake;
-        weight = carWeight;
-        //call the method after initialization of variables
-        getCarDetails();
+    //use of this
+    Car(String model, String carColor, String carMake, String carWeight ){
+        this.model = "Model is: "+model;
+        this.color = carColor;
+        this.make = carMake;
+        this.weight = carWeight;
+//        call the method after initialization of variables
+        this.getCarDetails();
     }
 
     Car(String carModel, String carColor, String carMake){
-        model = carModel;
-        color = carColor;
-        make = carMake;
-        weight = "1000";
+        this.model = carModel;
+        this.color = carColor;
+        this.make = carMake;
+        this.weight = "1000";
         //call the method after initialization of variables
         getCarDetails();
     }
@@ -76,10 +77,21 @@ public class Car {
     }
 
     void getCarDetails(){
-        System.out.println("Car Model: "+model);
-        System.out.println("Car Make: "+make);
-        System.out.println("Car Weight: "+weight);
-        System.out.println("Car Color: "+color);
+        System.out.println("------------------------");
+        System.out.println("Car Model: "+this.model);
+        System.out.println("Car Make: "+this.make);
+        System.out.println("Car Weight: "+this.weight);
+        System.out.println("Car Color: "+this.color);
+        System.out.println("------------------------");
     }
+
+    void getCarDetails(Car c1){
+        System.out.println("Car Model: "+c1.model);
+        System.out.println("Car Make: "+c1.make);
+        System.out.println("Car Weight: "+this.weight);
+        System.out.println("Car Color: "+this.color);
+    }
+
+
 
 }

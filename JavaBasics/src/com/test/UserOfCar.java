@@ -9,7 +9,6 @@ public class UserOfCar {
         Car fiatCar = new Car("Creamy white","Fiat","5000","fiat punto");
         fiatCar.startCar(fiatCar.model);
         fiatCar.stopCar();
-        System.out.println("------------------------");
 
         // Create another object for the Car class
         Car audiCar = new Car();
@@ -28,5 +27,19 @@ public class UserOfCar {
         tataCar.message("Hello", 100);
         tataCar.message(100, "Hello");
         tataCar.message("Helo", "How are you?");
+
+        //Create another object
+        Car suzuki = new Car("BLUE","SUZUKI","3000","Suzuki Elantra");
+        suzuki.getCarDetails();
+
+        getCarDetails();
+
+        suzuki.getCarDetails(tataCar);
+
+
     }
+    static void getCarDetails(){
+        System.out.println("THis call is from outside method....");
+    }
+
 }
