@@ -11,16 +11,16 @@
 * Constructors
 * Method overloading
 * This keyword
-### Topics yet to be covered
 * Oops concepts
-* Static keyword
-* Final keyword
 * Inheritance
 * Method overriding
 * Runtime polymorphism
+
+### Topics yet to be covered
+* Static keyword
+* Final keyword
 * Access modifiers
 * Super keyword 
-* Inheritance
 * Interface
 * Abstract classes
 ####

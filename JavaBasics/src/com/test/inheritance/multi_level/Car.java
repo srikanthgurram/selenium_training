@@ -1,47 +1,45 @@
-package com.test;
+package com.test.inheritance.multi_level;
 
 /**
  * Created by srikanth on 15/12/16.
  */
 public class Car {
     //properties or Instance variables
-    String model;
-    String make;
-    String weight;
-    String color;
+    public String model;
+    public String make;
+    public String weight;
+    public String color;
 
     //constructors are used to initialize the objects
     //default constructor, executed by default
     //method overloading:- methods with same name but different signature
     // signature:- number of arguments, order of arguments, type of arguments
 
-    void message(){
+    public void message(){
         System.out.println("default one");
     }
 
-    void message(int i){
+    public void message(int i){
         System.out.println("one integer as argument");
     }
 
-    void message(String s){
+    public void message(String s){
         System.out.println("one String as argument");
     }
 
-    void message(String s1, String s2){
+    public void message(String s1, String s2){
         System.out.println("Two Strings as argument");
     }
 
-    void message(String s, int i){
+    public void message(String s, int i){
         System.out.println("one string and one integer as argument");
     }
 
-    void message(int i, String s){
+    public void message(int i, String s){
         System.out.println("one integer and one string as argument");
     }
 
-
-
-    Car(){
+    public Car(){
         model = "AUDI X1";
         make = "AUDI Motors";
         color = "Black";
@@ -49,7 +47,7 @@ public class Car {
     }
 
     //use of this
-    Car(String model, String carColor, String carMake, String carWeight ){
+    public Car(String model, String carColor, String carMake, String carWeight ){
         this.model = "Model is: "+model;
         this.color = carColor;
         this.make = carMake;
@@ -58,7 +56,7 @@ public class Car {
         this.getCarDetails();
     }
 
-    Car(String carModel, String carColor, String carMake){
+    public Car(String carModel, String carColor, String carMake){
         this.model = carModel;
         this.color = carColor;
         this.make = carMake;
@@ -68,15 +66,15 @@ public class Car {
     }
 
     // methods
-    void startCar(String carModel){
+    public void startCar(String carModel){
         System.out.println("Starting "+carModel+" car..");
     };
 
-    void stopCar(){
+    public void stopCar(){
         System.out.println("Stopping my car..");
     }
 
-    void getCarDetails(){
+    public void getCarDetails(){
         System.out.println("------------------------");
         System.out.println("Car Model: "+this.model);
         System.out.println("Car Make: "+this.make);
@@ -85,7 +83,7 @@ public class Car {
         System.out.println("------------------------");
     }
 
-    void getCarDetails(Car c1){
+    public void getCarDetails(Car c1){
         System.out.println("Car Model: "+c1.model);
         System.out.println("Car Make: "+c1.make);
         System.out.println("Car Weight: "+this.weight);

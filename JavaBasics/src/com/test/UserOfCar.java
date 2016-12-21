@@ -1,4 +1,7 @@
 package com.test;
+
+import com.test.inheritance.multi_level.Car;
+
 /**
  * Created by srikanth on 15/12/16.
  */
