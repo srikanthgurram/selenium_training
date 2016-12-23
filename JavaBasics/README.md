@@ -15,11 +15,11 @@
 * Inheritance
 * Method overriding
 * Runtime polymorphism
+* Access modifiers
 
 ### Topics yet to be covered
 * Static keyword
 * Final keyword
-* Access modifiers
 * Super keyword 
 * Interface
 * Abstract classes
