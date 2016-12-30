@@ -9,6 +9,6 @@ public class DefaultUser {
         DefaultClass dClass = new DefaultClass();
 
         dClass.printMessage();
-        System.out.println("Default variable count = "+dClass.count);
+        System.out.println("Default variable static_count = "+dClass.count);
     }
 }
