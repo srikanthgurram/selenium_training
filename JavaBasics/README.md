@@ -21,9 +21,9 @@
     - protect
     - default
 * Static keyword
+* Final keyword
 
 ### Topics yet to be covered
-* Final keyword
 * Interface
 * Abstract classes
 
