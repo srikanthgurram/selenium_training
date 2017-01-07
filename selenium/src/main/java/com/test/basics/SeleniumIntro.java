@@ -47,7 +47,7 @@ public class SeleniumIntro {
         // it close the current window launched by driver
 //        driver.close();
         // it closes all the child windows along with the current window
-        driver.quit();
+//        driver.quit();
     }
 
     @Test(priority = 0)
@@ -79,10 +79,32 @@ public class SeleniumIntro {
         String pageTitle = driver.getTitle();
         //Assertions
         Assert.assertEquals(pageTitle, "Create your Google Account");
+        //assert by page header
+
+        //method 1
+//        WebElement header = driver.findElement(By.tagName("h1"));
+//        String headerText = header.getText();
+
+        //method 2
+//        String headerText = driver.findElement(By.tagName("h1")).getText();
+//        Assert.assertEquals(headerText, "Create your Google Account");
+
+        //method 3
+        Assert.assertEquals(driver.findElement(By.tagName("h1")).getText(),
+                "Create your Google Account");
     }
 
     @Test(priority = 2)
     public void fillDetailsInSingupPage(){
+        WebElement firstName = driver.findElement(By.id("FirstName"));
+        WebElement lastName = driver.findElement(By.id("LastName"));
+        WebElement email = driver.findElement(By.id("GmailAddress"));
+        WebElement pwd = driver.findElement(By.id("Passwd"));
+
+        //enter some text in the firstName field
+        firstName.sendKeys("selenium");
+        // enter text in last name field
+        lastName.sendKeys("user1234");
 
     }
 
