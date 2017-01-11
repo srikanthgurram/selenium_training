@@ -129,6 +129,11 @@ public class SeleniumIntro {
         Thread.sleep(1000);
         String h2Text2 = driver.findElement(By.tagName("h2")).getText();
         Assert.assertEquals(h2Text2, "One account is all you need");
+
+        // Fill password field using css property
+        WebElement pwd = driver.findElement(By.cssSelector("input#Passwd"));
+        pwd.sendKeys("Welcome123");
+
     }
 
 }

@@ -10,6 +10,7 @@
     -> By.className
     -> By.partialLinkText
     -> By.linkText
+    -> By.cssSelector
 - WebDriver Interface
     -> getUrl
     -> getCurrentUrl
