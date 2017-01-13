@@ -1,8 +1,9 @@
-# Selenium Topics 
+# Selenium Topics
+
+## Selenium WebDriver Part-1
 - Inspecting elements in Mozilla, Chrome and IE
 - Handling drop down list
 - Select Class in Selenium API
-- Managing radio buttons and Checkboxes
 - Various locator strategies
     -> By.id
     -> By.tagName
@@ -11,6 +12,7 @@
     -> By.partialLinkText
     -> By.linkText
     -> By.cssSelector
+    -> By.xpath
 - WebDriver Interface
     -> getUrl
     -> getCurrentUrl
@@ -22,16 +24,30 @@
     -> sendKeys
     -> clear
 - HTML language tags and attributes
-- Identifying WebElements using id, name, class
+- Identifying WebElements using id, name, className etc..
 - Firepath and firebug Add-ons installation in Mozilla
 - Working with different browsers without changing code
 - What is class attribute?
 - Simulating front and back button click on Browser using selenium
+- getting the parent and child items
+- Find the element with in the parent 
+- CSS Selector
+    - using compound classes
+    - define Parent > Child relations
+    - accessing nth element
+    - defining complete path and relative path
+    
+### Topics Not covered:
+- Managing radio buttons and Checkboxes
 
-## Selenium WebDriver-1
+
+## Selenium WebDriver Part-2
 - Finding Xpaths to identify
-- Absolute and complete Xpaths
+- Absolute Xpath
 - Creating customized Xpaths without firebug
+
+### Topics Not covered:
+- Relative XPATH
 - Performance of CssSelectors as compared to Xpaths
 - Finding xpaths/cssselectors in different browsers - Mozilla, Chrome and IE
 - Objects with same id/xpath/cssSelector
@@ -41,7 +57,7 @@
 - Css Selectors
 - Generating own CssSelectors
 
-## Selenium Webdriver - 2
+## Selenium Webdriver Part - 3
 - Extracting More than one object from a page
 - Extracting all links of a page/Bulk extraction of objects
 - Extracting Objects from a specific area of a web page
@@ -54,7 +70,7 @@
 - How to Google out errors-Self sufficiency
 - Exercises
 
-## Selenium WebDriver - 3
+## Selenium WebDriver Part - 4
 - Implicit and Explicit waits
 - PageLoadTimeout Property
 - WebDriverWait Class
@@ -71,7 +87,7 @@
 - Default Popups
 - Testing https websites / Managing certificate errors in https websites in IE, Chrome and Mozilla
 
-## Selenium WebDriver - 4
+## Selenium Part - 5
 - Assigning Firefox profile parameters
 - Downloading files using selenium
 - Selenium Javadocs
