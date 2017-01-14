@@ -45,17 +45,17 @@
 - Finding Xpaths to identify
 - Absolute Xpath
 - Creating customized Xpaths without firebug
-
-### Topics Not covered:
 - Relative XPATH
 - Performance of CssSelectors as compared to Xpaths
 - Finding xpaths/cssselectors in different browsers - Mozilla, Chrome and IE
-- Objects with same id/xpath/cssSelector
 - Managing Input fields, Buttons and creating custom xpaths
 - Managing/Identifying Links with xpaths/css selectors
-- Handling Dynamic objects/ids on the page
 - Css Selectors
 - Generating own CssSelectors
+
+### Topics Not covered:
+- Objects with same id/xpath/cssSelector
+- Handling Dynamic objects/ids on the page
 
 ## Selenium Webdriver Part - 3
 - Extracting More than one object from a page
