@@ -57,11 +57,14 @@
 - Objects with same id/xpath/cssSelector
 - Handling Dynamic objects/ids on the page
 
-## Selenium Webdriver Part - 3
+## Selenium WebDriver Part - 3
 - Extracting More than one object from a page
 - Extracting all links of a page/Bulk extraction of objects
 - Extracting Objects from a specific area of a web page
 - Various strategies to test Links on a page by clicking on them one by one
+- getting attributes
+
+### Topics Not covered:
 - Finding response Headers/ response code
 - Finding whether object is present on page or not
 - Hidden components
