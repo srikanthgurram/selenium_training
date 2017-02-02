@@ -63,18 +63,14 @@
 - Extracting Objects from a specific area of a web page
 - Various strategies to test Links on a page by clicking on them one by one
 - getting attributes
-
-### Topics Not covered:
-- Finding response Headers/ response code
 - Finding whether object is present on page or not
-- Hidden components
 - isDisplayed function
-- Taking Screenshots of the web pages
-- How to Google out errors-Self sufficiency
-- Exercises
+- Hidden components
 
 ## Selenium WebDriver Part - 4
 - Implicit and Explicit waits
+
+### Topics Not covered:
 - PageLoadTimeout Property
 - WebDriverWait Class
 - WebDriver.Timeout Interface
@@ -103,3 +99,8 @@
 - Handling CSS menu with JavaScriptExecutor- NEW
 - JavaScriptExecutor example- NEW
 - Drag, drop, native events - NEW
+
+- Taking Screenshots of the web pages
+- Finding response Headers/ response code
+- How to Google out errors-Self sufficiency
+- Exercises

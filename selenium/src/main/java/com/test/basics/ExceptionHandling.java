@@ -42,20 +42,6 @@ public class ExceptionHandling {
 }
 
 
-Exception
-    ArithmeticExceptions
-        DivideByZeroError
-        DecimalException
-    NoSuchElementnts
-        NoSuchELementError
-
-
-
-
-
-
-
-
 
 
 
