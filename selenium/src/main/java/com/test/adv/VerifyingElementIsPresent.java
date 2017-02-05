@@ -1,9 +1,6 @@
 package com.test.adv;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
@@ -47,11 +44,11 @@ public class VerifyingElementIsPresent {
 
         WebElement searchBar = driver.findElement(By.id("lst-ib"));
         searchBar.clear();
-        searchBar.sendKeys();
+        searchBar.sendKeys("Hello");
+        searchBar.sendKeys(Keys.ESCAPE);
 
         //verify element is present or not
         WebElement searchBtn = driver.findElement(By.id("_fZl"));
-        searchBar.sendKeys("Hello");
 
         // check if hidden element is displayed
         if (searchBtn.isDisplayed()){

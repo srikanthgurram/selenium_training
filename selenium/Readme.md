@@ -68,22 +68,22 @@
 - Hidden components
 
 ## Selenium WebDriver Part - 4
-- Implicit and Explicit waits
-
-### Topics Not covered:
-- PageLoadTimeout Property
+- Implicit waits
+- Explicit waits 
 - WebDriverWait Class
-- WebDriver.Timeout Interface
 - ExpectedCondition interface and ExpectedConditions class
 - WaitUntil Condition
+- PageLoadTimeout Property
+- WebDriver.Timeout Interface
+- Sending special keys through driver
+- Default Popups (Alerts)
+
+### Topics Not covered:
 - Fluent Wait
-- Managing Ajax based components
-- Concepts of Set Interface in Java
 - Window Handles
+- Closing windows
 - Managing tabbed windows in IE, Chrome and Mozilla
 - Managing popups in IE, Chrome and Mozilla
-- Closing windows
-- Default Popups
 - Testing https websites / Managing certificate errors in https websites in IE, Chrome and Mozilla
 
 ## Selenium Part - 5
@@ -104,3 +104,6 @@
 - Finding response Headers/ response code
 - How to Google out errors-Self sufficiency
 - Exercises
+
+- Managing Ajax based components
+- Concepts of Set Interface in Java
