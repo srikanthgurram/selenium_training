@@ -76,15 +76,15 @@
 - PageLoadTimeout Property
 - WebDriver.Timeout Interface
 - Sending special keys through driver
-- Default Popups (Alerts)
+- Alerts (default, prompts, confirmation dialogs)
+- Window Handles
+- Popus, windows handling
+- Closing windows
 
 ### Topics Not covered:
-- Fluent Wait
-- Window Handles
-- Closing windows
 - Managing tabbed windows in IE, Chrome and Mozilla
 - Managing popups in IE, Chrome and Mozilla
-- Testing https websites / Managing certificate errors in https websites in IE, Chrome and Mozilla
+- Fluent Wait
 
 ## Selenium Part - 5
 - Assigning Firefox profile parameters
@@ -99,11 +99,10 @@
 - Handling CSS menu with JavaScriptExecutor- NEW
 - JavaScriptExecutor example- NEW
 - Drag, drop, native events - NEW
-
 - Taking Screenshots of the web pages
 - Finding response Headers/ response code
 - How to Google out errors-Self sufficiency
 - Exercises
-
 - Managing Ajax based components
 - Concepts of Set Interface in Java
+- Testing https websites / Managing certificate errors in https websites in IE, Chrome and Mozilla
