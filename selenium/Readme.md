@@ -85,13 +85,15 @@
 - Managing tabbed windows in IE, Chrome and Mozilla
 - Managing popups in IE, Chrome and Mozilla
 - Fluent Wait
+- Selenium Javadocs
 
 ## Selenium Part - 5
+- Driver capabilities
 - Assigning Firefox profile parameters
 - Downloading files using selenium
-- Selenium Javadocs
-- Listeners- Using WebDriverEventListener
-- Practical usage of Listeners in Selenium
+
+
+### Actions Class:
 - Moving a mouse on a Object and right clicking on it
 - Finding Coordinates of a Web Object
 - Actions class in Webdriver - NEW
@@ -99,6 +101,7 @@
 - Handling CSS menu with JavaScriptExecutor- NEW
 - JavaScriptExecutor example- NEW
 - Drag, drop, native events - NEW
+
 - Taking Screenshots of the web pages
 - Finding response Headers/ response code
 - How to Google out errors-Self sufficiency
@@ -106,3 +109,5 @@
 - Managing Ajax based components
 - Concepts of Set Interface in Java
 - Testing https websites / Managing certificate errors in https websites in IE, Chrome and Mozilla
+- Listeners- Using WebDriverEventListener
+- Practical usage of Listeners in Selenium
