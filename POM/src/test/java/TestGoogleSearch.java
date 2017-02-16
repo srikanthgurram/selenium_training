@@ -1,8 +1,7 @@
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import steps.SearchSteps;
 
 /**
@@ -17,6 +16,11 @@ public class TestGoogleSearch {
         //open browser
         driver = new ChromeDriver();
         driver.manage().window().maximize();
+    }
+
+    @AfterClass
+    public void closeBrowser(){
+        driver.quit();
     }
 
     @Test

@@ -1,6 +1,7 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import steps.SignupSteps;
@@ -24,6 +25,11 @@ public class TestSignUpForm {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
 //        driver.get(baseUrl);
+    }
+
+    @AfterClass
+    public void closeBrowser(){
+        driver.quit();
     }
 
     @Test
